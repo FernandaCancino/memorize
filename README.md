@@ -2,7 +2,7 @@
 
 This is a memorize animals game project developed in Reactjs, created for a technical test.
 
-## Cómo probar el juego
+## How to test the game
 
 You can try the game on this URL blablabla, or if you want to run it locally, you need to have Node.js installed. Follow the steps below to execute it locally:
 
