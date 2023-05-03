@@ -1,13 +1,41 @@
 # Zootopia Memorize
 
-This is a memorize animals game project developed in Reactjs, created for a technical test.
+This is a React.js based game that tests your memory skills with cute animal characters.
 
-## How to test the game
 
-You can try the game on this URL blablabla, or if you want to run it locally, you need to have Node.js installed. Follow the steps below to execute it locally:
+## How to Play
+You can try the game on the following URL: https://zootopiamemorize.netlify.app/. This version of the game is hosted on Netlify, a free platform for hosting web applications.
 
-1. Open the terminal and execute **git clone https://github.com/FernandaCancino/memorize.git** to download the project.
-1. Execute the command **cd memorize** to enter the project directory or drag the "memorize" folder into the terminal and press enter.
-1. Execute the command **npm install** to install the dependencies.
-1. Execute the command **npm run dev**.
-1. Open your preferred browser and go to the following URL: http://localhost:5173/ (If the port is already in use, check the terminal for the correct link).
+## Local Development
+If you prefer to run the game locally, you need to have Node.js installed. Follow the steps below to execute it locally:
+
+1. Clone the project by running the following command in your terminal:
+
+```bash
+git clone https://github.com/FernandaCancino/memorize.git
+```
+
+1. Navigate into the project directory by running the following command:
+
+```bash
+cd memorize
+```
+Alternatively, drag the "memorize" folder into the terminal and press enter.
+
+1. Install the dependencies by running the following command:
+
+```bash
+npm install
+```
+
+1. Start the local development server by running the following command:
+
+```bash
+npm run dev
+```
+1. Open your preferred browser and go to the following URL: http://localhost:5173/.
+If the port is already in use, check the terminal for the correct link to use.
+
+
+## Technologies Used
+This project was developed using React.js and styled using CSS under the BEM methodology.
