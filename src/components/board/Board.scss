@@ -1,0 +1,27 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat( 3, 30% );
+    grid-gap: 1rem;
+    height: 100%;
+    &--no-render{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* For Tablet View */
+@media screen and (min-width: 768px)
+and (max-width: 1024px) {
+    .board {
+        grid-template-columns: repeat(6, 16%);
+        grid-gap: 0.5rem;
+    }
+}
+
+/* For Desktop View */
+@media only screen and (min-width: 1024px) {
+    .board {
+        grid-template-columns: repeat(8, 12%);
+        grid-gap: 0.5rem;
+    }
+}

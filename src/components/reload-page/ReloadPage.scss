@@ -1,0 +1,26 @@
+.reload{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &--show{
+        display: contents;
+    }
+    &--no-show{
+        display: none;
+    }
+    &__button{
+        border: none;
+        border-radius: 10px;
+        font-family: helvetica;
+        color: #FFF;
+        background-color: #5B8677;
+        font-size: 1.1rem;
+        width: 11rem;
+        height: 3rem;
+        margin: 1%;
+    }
+    &__button:hover{
+        color: #1d464c;
+        background-color: #E4F5EF;
+    }
+}

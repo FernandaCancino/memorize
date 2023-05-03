@@ -1,0 +1,18 @@
+.modal-information{
+    display: none;
+    &--show{
+        display: flex;
+        align-items: center;
+        background: rgb(145,214,191);
+        background: -moz-linear-gradient(262deg, rgba(145,214,191,1) 0%, rgba(29,70,76,0.6334908963585435) 0%);
+        background: -webkit-linear-gradient(262deg, rgba(145,214,191,1) 0%, rgba(29,70,76,0.6334908963585435) 0%);
+        background: linear-gradient(262deg, rgba(145,214,191,1) 0%, rgba(29,70,76,0.6334908963585435) 0%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#91d6bf",endColorstr="#1d464c",GradientType=1);
+    }
+    &__button{
+        background-color: rgb(145,214,191);
+    }
+    &__button:hover{
+        background-color: rgb(121, 186, 165);
+    }
+}

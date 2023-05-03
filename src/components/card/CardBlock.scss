@@ -1,0 +1,53 @@
+.card-block {
+    cursor: pointer;
+    aspect-ratio: 1 / 1;
+    height: 10rem;
+    width: 100%;
+
+    &__front, &__back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        border-radius: 10%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__inner{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        &--flipped {
+            transform: rotateY(180deg);
+        }
+    }
+
+    &__back{
+        transform: rotateY(180deg);
+        box-shadow: 5px 5px 10px 0px rgb(0 0 0 / 50%);
+    }
+}
+
+
+/* For Tablet View */
+@media screen and (min-width: 768px)
+and (max-width: 1024px) {
+    .card-block {
+        height: 13rem;
+    }
+}
+
+/* For Desktop View */
+@media only screen and (min-width: 1024px) {
+    .card-block {
+        height: 15rem;
+    }
+}

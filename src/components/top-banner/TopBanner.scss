@@ -1,0 +1,29 @@
+.top_banner{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    &__img{
+        width: 100vw;
+        height: 8rem;
+    }
+    &__title{
+        left: 10px;
+        position: absolute;
+        top: 2rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .top_banner{
+        &__img{
+            width: 100vw;
+            height: 14rem;
+        }
+        &__title{
+            top: 2rem;
+            font-size: 3rem;
+            left: 2rem;
+        }
+    }
+}
